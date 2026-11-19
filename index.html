@@ -1078,7 +1078,7 @@
 
             <div class="float-card float-card-top">
               <div style="display:flex;align-items:center;gap:0.5rem">
-                <div class="float-stat text-gradient">30+</div>
+                <div class="float-stat text-gradient">40+</div>
                 <div class="float-label" data-i18n-html="hero.float1">Publications<br>Supervision & Advising</div>
               </div>
             </div>
@@ -1099,15 +1099,15 @@
 
         <div class="stats">
           <div class="stat">
-            <div class="stat-value text-gradient">20+</div>
+            <div class="stat-value text-gradient">30+</div>
             <div class="stat-label" data-i18n="stats.pubs">Publications</div>
           </div>
           <div class="stat">
-            <div class="stat-value text-gradient">12+</div>
+            <div class="stat-value text-gradient">13+</div>
             <div class="stat-label" data-i18n="stats.years">Years in Academia</div>
           </div>
           <div class="stat">
-            <div class="stat-value text-gradient">40+</div>
+            <div class="stat-value text-gradient">50+</div>
             <div class="stat-label" data-i18n="stats.reviews">Peer Reviews</div>
           </div>
           <div class="stat">
@@ -1440,6 +1440,7 @@
             <a href="#memberships" class="link-underline" data-i18n="nav.memberships">Memberships</a>
             <a href="#contact" class="link-underline" data-i18n="nav.contact">Contact</a>
             <a href="old_index.html" class="link-underline" data-i18n="nav.oldindex">Old Page</a>
+            <a href="index_persian.html" class="link-underline" data-i18n="nav.persianindex">Persian Version</a>
           </div>
         </div>
         <div>
@@ -1564,8 +1565,16 @@
     ];
 
     const publications = [
+      { year: 2027, authors: "Monshizadeh Naeen, H., Souri, A., & Ebrahimi Mood, S.", title: "Dynamic VM consolidation in cloud data centers: A systematic review on methods, metrics and open challenges", venue: "Journal of Network and Computer Applications, 257, 104609", type: "Journal", links: [{ label: "Publisher", url: "https://www.sciencedirect.com/science/article/pii/S1084804526001840", type: "external" }] },
+      { year: 2026, authors: "S.M. Mosavisadr, M. Kheirabadi, H. Monshizadeh Naeen", title: "Adaptive Synchronization Framework for Metaverse Digital Twins Using AOI-Aware CloudEdge Coordination", venue: "Majlesi Journal of Telecommunication Devices, 9(1)", type: "Journal", links: [] },
+      { year: 2026, authors: "Azadravesh, H., Monshizadeh Naeen, H., Kheirabadi, M., & Sheibani, R.", title: "A Kolmogorov-Arnold Network Framework for Explainable Cross-Domain Consumer Preference Prediction from EEG Signals", venue: "Signal Processing and Renewable Energy (SPRE), 10(3)", type: "Journal", links: [{ label: "Publisher", url: "https://oiccpress.com/spre/article/view/19165", type: "external" }, { label: "DOI", url: "https://doi.org/10.57647/spre.2026.1003.15", type: "external" }] },
+      { year: 2026, authors: "آزادروش، حجت، منشی‌زاده نائین، حسین، خیرآبادی، مریم، و شیبانی، رضا", authorsEn: "Azadravesh, H., Monshizadeh Naeen, H., Kheirabadi, M., & Sheibani, R.", title: "Adaptive Kolmogorov-Arnold Network Based on Rational Functions and Splines for Predicting Consumer Preference from EEG Signals", titleFa: "شبکه کولموگروف–آرنولد تطبیقی مبتنی بر توابع گویا و اسپلاین برای پیش‌بینی ترجیح مصرف‌کننده از سیگنال‌های EEG", venue: "فناوری‌های نوین در سیستم‌های توزیع‌شده و محاسبات الگوریتمی", venueFa: "فناوری‌های نوین در سیستم‌های توزیع‌شده و محاسبات الگوریتمی", type: "Persian", links: [] },
+      { year: 2026, authors: "Hajimirza, V., Monshizadeh Naeen, H., Hasanpour, H., & Kheirabadi, M.", title: "A Cosine Similarity-Based VM Placement for Stable Resource Consolidation in Cloud Data Centers", venue: "Journal of New Technologies in Distributed Systems and Algorithmic Computing", type: "Journal", links: [] },
+      { year: 2026, authors: "Hajimirza, V., Monshizadeh Naeen, H., Hasanpour, H., & Kheirabadi, M.", title: "Multi-criteria Dynamic VM Selection with Energy-Efficiency and SLA-Aware Placement for Cloud Data Centers", venue: "", type: "Journal", links: [] },
+      { year: 2026, authors: "Hajimirza, V., Monshizadeh Naeen, H., Hasanpour, H., & Kheirabadi, M.", title: "Energy-Efficient and SLA-Aware VM Consolidation in Cloud Data Centers Using Dynamic Time Warping-Based Workload Similarity Analysis", venue: "", type: "Journal", links: [] },
       { year: 2026, authors: "S.M. Mosavisadr, M. Kheirabadi, H. Monshizadeh Naeen", title: "Context-Aware Synchronisation of Digital Twins in the Metaverse: Balancing Freshness, Energy and Network Efficiency", venue: "The Journal of Engineering, e70211", type: "Journal", links: [{ label: "Publisher", url: "https://doi.org/10.1049/tje2.70211", type: "external" }, { label: "PDF", url: "https://ietresearch.onlinelibrary.wiley.com/doi/epdf/10.1049/tje2.70211", type: "pdf" }] },
       { year: 2026, authors: "M. Habibipour, S.R. Kamel Tabbakh, H.M. Naeen, M.H. Moattar", title: "ATS-IDS: an adaptive teacher-student framework for lightweight IDS in IoT using incremental learning", venue: "Cluster Computing, 29(2), 101", type: "Journal", links: [{ label: "Publisher", url: "https://link.springer.com/article/10.1007/s10586-025-05878-w", type: "external" }] },
+      { year: 2025, authors: "Alizadeh Javaheri, S.D., Ghaemi, R., & Monshizadeh Naeen, H.", title: "Design a Hierarchical Resource Allocating Approach by Using Dual Q-Learning in Deep Reinforcement Algorithm", venue: "Engineering and Technology Journal, 10(05), 4662-4671", type: "Journal", links: [{ label: "Publisher PDF", url: "https://everant.org/index.php/etj/article/download/1862/1366/5277", type: "pdf" }, { label: "DOI", url: "https://doi.org/10.47191/etj/v10i05.02", type: "external" }] },
       { year: 2025, authors: "S.M. Mosavisadr, M. Kheirabadi, H. Monshizadeh Naeen", title: "FedGeoSwap++: A Novel Context-Aware and Privacy-Preserving Sensor Substitution Framework for Fault Tolerance in Metaverse-Driven Smart Cities", venue: "Journal of Future Generation of Communication and Internet of Things", type: "Journal", links: [{ label: "Publisher", url: "https://sanad.iau.ir/ar/Journal/fgciot/Article/934002", type: "external" }] },
       { year: 2025, authors: "Monshizadeh Naeen, H., Ghadamyari, M., & Barmar, M.", title: "Enhancing SDN security with deep learning and F-balanced cross-entropy for DDoS detection", venue: "Scientific Reports, 15, 33419. DOI: 10.1038/s41598-025-18826-w", type: "Journal", links: [{ label: "Publisher", url: "https://www.nature.com/articles/s41598-025-18826-w", type: "external" }, { label: "PDF", url: "https://www.nature.com/articles/s41598-025-18826-w.pdf", type: "pdf" }] },
       { year: 2025, authors: "آل‌علیزاده جوهری، س.د.، غیمی، ر.، و منشی‌زاده نائین، ح.", authorsEn: "Alizadeh Javaheri, S.D., Ghaemi, R. & Monshizadeh Naeen, H.", title: "Optimal Resource Allocation in Cloud-Fog Environment by PSO-based DDQN Hierarchical Structure", titleFa: "تخصیص بهینه منابع در فضای ابر - مه به کمک ساختار DDQN سلسله مراتبی مبتنی بر الگوریتم PSO", venue: "Information Technology in Engineering Design, 18(2), 1-29", venueFa: "مجله فناوری اطلاعات در طراحی مهندسی، سال هجدهم شماره 2 (تابستان 1404)، ص 5", type: "Journal", links: [{ label: "Publisher", url: "https://sanad.iau.ir/en/Journal/ited/Article/1200399", type: "external" }, { label: "PDF", url: "https://hosseinmonshizadeh.ir/files/IAUM2025Article.pdf", type: "pdf" }] },
@@ -1580,7 +1589,7 @@
       { year: 2022, authors: "زینب سرچاهی، حسین منشی‌زاده نائین، و ساناز روح‌پرور.", authorsEn: "Sarchahi Z., Monshizadeh Naeen, H., & Roohparvar, S.", title: "Improvement in real-time workflow scheduling in cloud computing environment", titleFa: "بهبودی درزمانبندی جریان کار بلادرنگ در محیط محاسبات ابری نامشخص", venue: "8th National Congress of Electrical and Computer Engineering of Iran (pp. 1-10) ISC", venueFa: "هشتمین کنگره ملی مهندسی برق و کامپیوتر ایران (ص. ۱-۱۰) ISC", type: "Persian", links: [{ label: "Publisher", url: "https://en.civilica.com/doc/1393687/", type: "external" }] },
       { year: 2021, authors: "Monshizadeh Naeen, H.", title: "Virtual machine consolidation using SLA-aware genetic algorithm placement for data centers with non-stationary workloads", venue: "2021 11th International Conference on Computer Engineering and Knowledge (ICCKE) (pp. 150-156). IEEE", type: "Conference", links: [{ label: "Conference", url: "https://iccke.um.ac.ir/en/Home/Article/f9348e4f-3d56-4707-84c3-1afac9551e69", type: "external" }] },
       { year: 2021, authors: "محمد سلطانی میرزائی و حسین منشی‌زاده نائین", authorsEn: "Monshizadeh Naeen, H., Mirzaee, S. M., & Monshizadeh Naeen, H.", title: "Phishing detection in internet and social networks using artificial neural network and feature selection", titleFa: "تشخیص سرقت های آنلاین در شبکه اینترنت و شبکه های اجتماعی با شبکه عصبی مصنوعی چند لایه و انتخاب ویژگی", venue: "4th International Conference on Interdisciplinary Researches in Electrical, Computer, Mechanical and Mechatronics Engineering in Iran and Islamic World, Tehran, Iran, CIVILICA", venueFa: "چهارمین کنفرانس بین‌المللی پژوهش‌های میان‌رشته‌ای در مهندسی برق، کامپیوتر، مکانیک و مکاترونیک در ایران و جهان اسلامی، تهران، CIVILICA", type: "Persian", links: [{ label: "Conference", url: "https://civilica.com/doc/1184203/", type: "external" }] },
-      { year: 2021, authors: "Roknizadeh M., & Monshizadeh Naeen, H.", title: "A Hybrid optimized ensemble algorithm based on Genetic Programming for imbalanced data classification", venue: "Twelfth International Conference on Information Technology, Computer and Telecommunications, Tbilisi, Georgia (pp. 1-11)", type: "Conference", links: [{ label: "Conference", url: "https://en.civilica.com/doc/1261189/", type: "external" }] },
+      { year: 2021, authors: "Roknizadeh M., & Monshizadeh Naeen, H.", title: "A Hybrid optimized ensemble algorithm based on Genetic Programming for imbalanced data classification", venue: "Twelfth International Conference on Information Technology, Computer and Telecommunications, Tbilisi, Georgia (pp. 1-11)", type: "Conference", links: [{ label: "Conference", url: "https://en.civilica.com/doc/1261189/", type: "external" }, { label: "arXiv Abstract", url: "https://arxiv.org/abs/2106.01176", type: "external" }, { label: "arXiv PDF", url: "https://arxiv.org/pdf/2106.01176", type: "pdf" }] },
       { year: 2021, authors: "ملیحه رکنی زاده‌ حسین منشی‌زاده نائین، و حمید ثابت", authorsEn: "Roknizadeh M., Monshizadeh Naeen, H., & Sabet H.R.", title: "Detection of anomalies in the IoT network by Moth-flame optimization algorithm and network traffic analysis in Apache Spark", titleFa: "شخیص ناهنجاری در شبکه اینترنت اشیاء به وسیله الگوریتم بهینه سازی شاپرک و تحلیل ترافیک شبکه در آپاچی اسپارک", venue: "Twelfth International Conference on Information Technology, Computer and Telecommunications, Tbilisi, Georgia (pp. 1-14)", venueFa: "دوازدهمین کنفرانس بین‌المللی فناوری اطلاعات، کامپیوتر و مخابرات، تفلیس، گرجستان (ص. ۱-۱۴)", type: "Persian", links: [{ label: "Conference", url: "https://en.civilica.com/doc/1261188/", type: "external" }] },
       { year: 2020, authors: "Monshizadeh Naeen, H., Zeinali, E., & Haghighat, A. T.", title: "A stochastic process-based server consolidation approach for dynamic workloads in cloud data centers", venue: "The Journal of Supercomputing, 76(3), 1903-1930", type: "Journal", links: [{ label: "Publisher", url: "https://link.springer.com/article/10.1007/s11227-018-2431-5", type: "external" }, { label: "Academia PDF", url: "https://www.academia.edu/107710560/A_stochastic_process_based_server_consolidation_approach_for_dynamic_workloads_in_cloud_data_centers?download=1", type: "pdf" }] },
       { year: 2020, authors: "Monshizadeh Naeen, H., Zeinali, E., & Toroghi Haghighat, A.", title: "Adaptive Markov-based approach for dynamic virtual machine consolidation in cloud data centers with quality-of-service constraints", venue: "Software: Practice and Experience, 50(2), 161-183", type: "Journal", links: [{ label: "Publisher", url: "https://onlinelibrary.wiley.com/doi/full/10.1002/spe.2764", type: "external" }] },
@@ -2250,7 +2259,7 @@
       en: {
         'nav.about': 'About', 'nav.research': 'Research', 'nav.publications': 'Publications',
         'nav.experience': 'Experience', 'nav.review': 'Review', 'nav.memberships': 'Memberships',
-        'nav.contact': 'Contact', 'nav.cta': 'Get in touch','nav.oldindex': 'Old Page',
+        'nav.contact': 'Contact', 'nav.cta': 'Get in touch','nav.oldindex': 'Old Page','nav.persianindex':'Persian Version',
         'hero.badge': 'Personal Website', 'hero.name1': 'Hossein', 'hero.name2': 'Monshizadeh', 'hero.name3': 'Naeen',
         'hero.tagline': 'Assistant Professor of Computer Engineering at <strong>Islamic Azad University (IAU), Neyshabur</strong>. Researching cloud computing, IoT, stochastic systems, and machine learning.',
         'hero.cta1': 'Get In Touch', 'hero.cta2': 'View Publications', 'hero.location': 'Neyshabur, Iran',
@@ -2299,7 +2308,7 @@
       },
       fa: {
         'nav.about': 'درباره', 'nav.research': 'پژوهش', 'nav.publications': 'انتشارات',
-        'nav.experience': 'تجربیات', 'nav.review': 'داوری', 'nav.memberships': 'عضویت‌ها', 'nav.contact': 'تماس', 'nav.cta': 'ارتباط با من','nav.oldindex': 'صفحه قدیم',
+        'nav.experience': 'تجربیات', 'nav.review': 'داوری', 'nav.memberships': 'عضویت‌ها', 'nav.contact': 'تماس', 'nav.cta': 'ارتباط با من','nav.oldindex': 'صفحه قدیم', 'nav.persianindex':'نسخه فارسی',
         'hero.badge': 'وب‌سایت شخصی', 'hero.name1': 'حسین', 'hero.name2': 'منشی‌زاده', 'hero.name3': 'نائین',
         'hero.tagline': 'استادیار مهندسی کامپیوتر در <strong>دانشگاه آزاد اسلامی (IAU)، نیشابور</strong>. پژوهشگر در حوزه‌های رایانش ابری، اینترنت اشیا، سیستم‌های تصادفی و یادگیری ماشین.',
         'hero.cta1': 'ارتباط با من', 'hero.cta2': 'مشاهده انتشارات', 'hero.location': 'نیشابور، ایران', 'hero.connect': 'ارتباط',
